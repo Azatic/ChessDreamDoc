@@ -14,4 +14,4 @@ all:
 	$(TEX) $(TEXFLAGS) $(MAIN).tex
 
 clean:
-	rm -f $(foreach ext, $(CLEAN_EXT), $(MAIN).$(ext))
+	rm -f $(foreach ext, $(CLEAN_EXT), $(MAIN).$(ext)
